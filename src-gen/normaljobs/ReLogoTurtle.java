@@ -746,5 +746,26 @@ public class ReLogoTurtle extends BaseTurtle{
 		return userLink(oneEnd.getWho(), otherEnd.getWho());
 	}
 
+	/**
+	 * Returns the value of the global variable numWorkers.
+	 *
+	 * @return the value of the global variable numWorkers
+	 */
+	@ReLogoBuilderGeneratedFor("global: numWorkers")
+	public Object getNumWorkers(){
+		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("numWorkers");
+	}
+
+	/**
+	 * Sets the value of the global variable numWorkers.
+	 *
+	 * @param value
+	 *            a value
+	 */
+	@ReLogoBuilderGeneratedFor("global: numWorkers")
+	public void setNumWorkers(Object value){
+		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("numWorkers",value);
+	}
+
 
 }

@@ -11,5 +11,7 @@ import repast.simphony.relogo.schedule.Setup;
 import normaljobs.ReLogoTurtle;
 
 class Worker extends ReLogoTurtle {
+	def step(){
 
+	}
 }
